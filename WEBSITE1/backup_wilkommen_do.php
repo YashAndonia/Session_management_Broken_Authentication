@@ -1,0 +1,148 @@
+<?php
+session_start();
+//cni1q90hf5pvj642pfv7lveko7 
+$a=$_GET["fname"];
+$b=$_GET["lname"];
+$_SESSION["nam"]=$a." ".$b;
+
+?>
+
+<!DOCTYPE HTML>
+
+<head>
+	<title>Let's Do</title>
+	<link href="dostyle_mainpg.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+
+	#panel{
+		top:0px;
+	}
+	
+	#map{
+		top:35%;
+		
+	}
+</style>
+
+</head> 
+
+<body>
+
+	<header>
+		<h1 style="width=100px;"><a href="Do_1614093.html">:Do.</a></h1>
+		
+		<input name="search" type="text" class="searchbar" placeholder="Search.">
+		</input>
+		 
+		<div id="UserInfo">
+			
+			<div id="dp"><img class="avatar" src="https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/jojohnson2_0.jpg?itok=L6J5MbTL" height=75 width=auto/></div>
+			
+				<h2 ><?php echo $_SESSION["nam"];?></h2>
+		
+		
+			<div id="panel">
+				<h2>|Settings</h2>
+				<h2>|Requests</h2>
+				<h2>|Your Events</h2>
+				<h2>|About Us</h2>
+				
+				<a href="Do_1614093.html" onclick='return logout()'><h2 >|Log Out</h2></a>
+			</div>
+		
+		</div>
+		
+	</header>
+<br>
+<br>
+	<div id="Categories">
+		<br><br><h2>Categories.</h2>
+		
+		
+		<table>
+		
+			<tr>
+				<td>Sports</td>
+				
+			</tr>
+			<tr>
+				<td>Food</td>
+				
+			</tr>
+			<tr>
+				<td>Cultutre</td>
+				
+			</tr>
+			
+			<tr>
+				<td>Arts</td>
+				
+			</tr>
+			
+			<tr>
+				<td>Literature</td>
+				
+			</tr>
+			<tr>
+				<td>Festivals</td>
+				
+			</tr>
+			
+		</table>
+		
+	</div>
+	
+	<div id="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15083.26482820217!2d72.89888315869142!3d19.071816795943672!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1519173083915" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	
+	</div>
+	
+	<div class="stream" id="fir">
+	
+	<h2 class="title "><a href="1614093_Event_do.php" style="color:white;">College Cricket Tournament</h2></a>
+	
+	
+	</div>
+	
+	<div class="stream" id="sec">
+	
+	<h2 class="title">Silent DJ!</h2>
+	
+	
+	</div>
+	
+	<div class="stream" id="third">
+	
+	<h2 class="title">Food Truck Festival</h2>
+	
+	
+	</div>
+	
+	<div class="stream" id="fourth">
+	
+	<h2 class="title">Beach Party</h2>
+	
+	
+	</div>
+	
+	<footer style="position:fixed; bottom:0px;">
+	<h3>The session id is:<?php echo session_id();?></h3>
+	
+	</footer>
+	
+</body>
+<script>
+function logout( ){
+	
+<?php session_unset();
+	session_destroy();
+	session_regenerate_id();
+	?>
+	return true;
+}
+</script>
+</html>
