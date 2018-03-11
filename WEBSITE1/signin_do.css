@@ -1,0 +1,72 @@
+body{
+	background-image:url("https://imagejournal.org/wp-content/uploads/bb-plugin/cache/23466317216_b99485ba14_o-panorama.jpg") ;
+	background-repeat:no repeat;
+}
+
+.website_name{
+	font-size:6em;
+		margin:0px 0px 0px 50px;
+		font-family: 'Montserrat', sans-serif;
+		color:white;
+		position: fixed;
+}
+header{
+	margin-left:0px;
+		margin-right:0px;
+		margin-bottom:0px;
+		padding:1px;
+		
+		position: sticky;
+		
+		top:0px;
+		
+		
+		
+}
+
+
+
+.formplace{
+	font-family:Montserrat,sans-serif;
+		background-color:black;
+		opacity:0.5;	
+	width:30%;
+		border-radius:5%;
+		position: absolute;
+		top:25%;
+		right:35%;
+		padding:10px;
+		transition:opacity 2s;
+	
+}
+
+.formplace:hover{
+	opacity:0.8;
+
+}
+.sub{
+	position:relative;
+	top:10px;
+	left:25%;
+	font-family:Montserrat,sans-serif;
+	color:black;
+	width:50%;
+	height:40px;
+	border:0px;
+	
+	
+}
+
+p{color:white;
+}
+
+
+.ip{
+		width:100%;
+}
+
+h2{
+	color:white;
+	
+	width:70%
+}
