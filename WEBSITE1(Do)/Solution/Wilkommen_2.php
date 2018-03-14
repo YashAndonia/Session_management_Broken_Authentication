@@ -1,9 +1,13 @@
 <?php
 session_start();
- 
-$a=$_GET["fname"];
-$b=$_GET["lname"];
+ if(!isset($_SESSION["nam"])){
+	 header('location:byebye.php');
+ }
+$a=$_POST["fname"];
+$b=$_POST["lname"];
+
 $_SESSION["nam"]=$a." ".$b;
+
 
 ?>
 

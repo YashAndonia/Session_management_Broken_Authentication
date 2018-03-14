@@ -20,7 +20,7 @@ session_start();
 	
 	
 		
-		<form  action="Wilkommen_2.php" method="get"class="formplace" name="yes" onsubmit="return check()">
+		<form  action="Wilkommen_2.php" method="post"class="formplace" name="yes" onsubmit="return check()">
 		<h2>First Name</h2>
 				<input type="text" name="fname" class="ip" placeholder="Enter your first name here" ">
 			<h2>Surname</h2>
