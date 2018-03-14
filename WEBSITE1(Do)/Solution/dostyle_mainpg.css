@@ -1,0 +1,223 @@
+
+	header{
+		margin-left:0px;
+		margin-right:0px;
+		margin-bottom:0px;
+		padding:1px;
+		
+		position: ABSOULTE;
+		
+		top:0px;
+		
+		
+		background-color: #ffffff;
+		
+		
+		}
+		h1{
+		font-size:6em;
+		margin:0px 0px 0px 50px;
+		font-family: 'Montserrat', sans-serif;
+		background-color: #ffffff;
+		
+		
+	
+	
+	}
+	h2{
+		font-family:'Montserrat',sans-serif;
+	
+	}
+	
+	a:link,a:visited{
+		text-decoration:none;
+		color:black;
+		
+	}
+
+
+.stream{
+	width:60%;
+	height:300px;
+	
+	position:relative;
+	left:50px;
+	
+margin: 20px 20px 20px 20px;
+text-shadow:1px 1px black;
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+.eventtext{
+	
+	
+	top:40%;
+}
+
+#fir{
+background-image:url("http://s3.india.com/cricket/uploads/29a6d16f4595e80350e70faa565cf7f0.jpeg")  ;
+
+color:white;
+
+
+}
+
+#sec{
+	background: linear-gradient(to bottom left, cyan, grey);
+	color:white;
+	opacity:0.9;
+	
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+	}	#third{
+		background:url("http://vancouver.carpediem.cd/data/afisha/o/a0/18/a01812886d.jpg") ;
+		
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+	}
+	
+	#fourth{
+		background:linear-gradient(to bottom right,violet,blue,cyan,green,orange,yellow);
+		
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+	}
+
+
+
+	#info{
+		padding-left:20px;
+		position:fixed;
+		top:20%;
+		right:5%;
+		border: 1px solid black;
+		width:25%;
+		
+		background-color:white;
+	
+	}
+	.title{
+		
+	text-align:center; position:relative; top:40%;
+	color:white;
+	}
+	h2{
+		position:relative;
+		right:0px;
+		font-size:30px;
+		margin:0px 0px 0px 0px;
+		text-align:left;
+		
+	}
+	.searchbar{
+		position:absolute;
+		top:10%;
+		left:25%;
+		width:40%;
+height: 3%;
+		}	
+.name{
+	text-align:center;
+
+	}
+	#UserInfo{
+height:100px;
+		width:10% 	;
+		position:absolute;
+		top:30px;
+		right:15%;
+		margin: 0px 0px 0px 0px;
+		vertical-align:center;
+		font-family:Montserrat,sans-serif;	
+		transition:opacity 1s;
+		
+	}
+	.avatar{
+		border-radius:45%;
+	}
+	
+	#dp{
+		
+	}
+	
+	#Categories{
+		display:inline;
+		position:absolute;
+		top:75%;
+		right:1%;
+		font-family: 'Montserrat', sans-serif;
+		
+	
+	}
+	
+	#map{
+		position:absolute;
+		top:35%;
+		right:1%;
+		
+	}
+	
+
+	table{
+		border:1px solid black;
+		padding:1px;
+		border-collapse:collapse;
+		text-align:center;
+		
+		
+	}
+	tr{
+		
+		
+	}
+	td{
+		padding:15px;
+		margin: 12px;
+		height:50px;
+		width:350px;
+		transition: background-color 1s;
+	}
+	
+	
+	#panel{
+		position:absolute;
+		top:0px;
+		width:300px;
+		background-color:white;
+		border:1px solid black;
+		display:none;
+		transition: display 1s;
+		transition: background-color 1s;
+		
+		transition: color 1s;
+	}
+	
+	#panel h2:hover{
+		color:white;
+		background-color:black;
+		transition:background-color 1s;
+		transition: color 1s;
+		cursor:pointer;
+	}
+	
+	#UserInfo:hover #panel{
+		display:block;
+		transition:display 1s;
+		
+	}
+	
+	td:hover{
+			cursor:pointer;
+			background-color:grey;
+			color:black;
+			
+	}

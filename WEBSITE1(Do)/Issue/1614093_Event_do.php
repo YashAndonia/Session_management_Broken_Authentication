@@ -4,6 +4,8 @@ session_start();
 if(!isset($_SESSION["nam"]))	
 {session_regenerate_id();
 $_SESSION["nam"]="DNE";
+
+  header('location:byebye.php');
 }
 ?>
 

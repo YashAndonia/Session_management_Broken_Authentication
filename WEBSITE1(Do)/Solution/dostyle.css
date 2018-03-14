@@ -1,0 +1,157 @@
+	body{
+		background-color: "#ffffff";
+		
+		}
+	
+	header{
+		margin-left:0px;
+		margin-right:0px;
+		margin-bottom:0px;
+		padding:1px;
+		
+		position: sticky;
+		
+		top:0px;
+		
+		
+		background-color: #ffffff;
+		
+		
+		}
+	
+	.buttons1{
+		text-align:center;
+		font-family:'Montserrat',sans-serif;
+		border:0px;
+		color: white;
+		background-color:#000000;
+		padding: 15px 20px;
+		margin:2px 5px;
+		position: absolute;
+		top:35;
+		right: 175;
+		transition:background-color 2s;
+		transition:color 2s;
+		
+	}
+	.buttons1:hover{
+		text-align:center;
+		font-family:'Montserrat',sans-serif;
+		border:0px;
+		color: black;
+		background-color:#e7e7e7;
+		padding: 15px 20px;
+		margin:2px 5px;
+		position: absolute;
+		top:35;
+		right: 175;
+		cursor:pointer;
+		
+	}
+	
+	.buttons2{
+		text-align:center;
+		font-family:'Montserrat',sans-serif;
+		border:0px;
+		color: white;
+		background-color:#000000;
+		padding: 15px 20px;
+		margin:2px 5px;
+		position:absolute;
+		top: 35;
+		right :50;
+		
+		transition:background-color 2s;
+		transition:color 2s;
+	}
+	
+	.buttons2:hover{
+		text-align:center;
+		font-family:'Montserrat',sans-serif;
+		border:5px;
+		border-color:black;
+		color: black;
+		background-color:#e7e7e7;
+		padding: 15px 20px;
+		margin:2px 5px;
+		position:absolute;
+		top: 35;
+		right :50;
+		cursor:pointer;
+	}	
+	h1{
+		font-size:6em;
+		margin:0px 0px 0px 50px;
+		font-family: 'Montserrat', sans-serif;
+		background-color: #ffffff;
+		
+	
+	
+	}
+	
+	section{
+		margin: 0px 5px 0px 5px;
+		max-width:100%;
+	}
+	
+	.uno{
+		margin: 10px 0px 10px 0px;
+		background: url("https://dailytimes.com.pk/static/uploads/original/live-life-to-the-fullest-71d8021baa406c5910dde6b5da2e8bea.jpg") center;
+		background-size:100%;
+		overflow:hidden;
+		max-width:100%;
+		height:350px;
+		transition:background-size 1s;
+		}
+	.uno:hover{
+		width:100%;
+		height:350px;
+		background-size:120%;
+		background-position:center;
+		transition:background-size 2s;
+	}
+	.tres:hover{
+		width:100%;
+		height:350px;	
+		background-size:120%;
+		background-position:center;
+		transition:background-size 2s;
+	}
+	.dos:hover{
+		
+		background-size:120%;
+		background-position:center;
+		transition:background-size 2s;
+	width:100%;
+		height:350px;	
+	}
+	.tres{
+		margin: 10px 0px 10px 0px;
+		background: url("http://img.timeinc.net/time/2009/50_asian_experiences/50asian_tout_nv.jpg") center;
+		background-size:100%;
+		width:100%;
+		overflow:hidden;
+		height:350px;
+		
+		transition:background-size 1s;
+		
+	}
+	.dos{
+		margin: 10px 0px 10px 0px;
+		background: url("https://i.ytimg.com/vi/Pu-rE8OuUJI/maxresdefault.jpg") center;
+		background-size:100%;
+		width:100%;
+		overflow:hidden;
+		height:350px;
+		
+		transition:background-size 1s;
+	}
+	h2{
+		font-family:"Calibri",Calibri;
+		font-size: 50px;
+		padding=1px;
+		margin: 0px 0px 0px 10px;
+		color: white;
+		text-shadow: 2px 1px black;
+		
+	}

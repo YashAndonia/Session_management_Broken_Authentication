@@ -1,0 +1,3 @@
+Do_1614093 is the main page. Click on Register to lead on to the Sign in page.
+From here, click on 'Cricket Tournament' to go to the page where it is only linked to the previous by session_id and variables, and no other form details.
+Page 2 is linked and constant due to the use of the get method, which also links to a corresponding session id .
