@@ -1,0 +1,149 @@
+.footer{
+  position: absolute;
+  right:0;
+  bottom:0;
+  left: 0;
+  height:10px;
+  width: 100%;
+  z-index: 1;
+
+}
+html{
+  position: relative;
+  min-height: 100%;
+  text-align: justify;
+
+}
+
+body{
+  background-image: url('page.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+html,body{
+  margin:0;
+  padding: 0;
+  color: #1930C5;
+
+
+}
+#pagewrapper{
+  margin-bottom: 50px;
+}
+.header,
+.footer
+{
+  text-align: center;
+  padding: 5px;
+  background-color:grey;
+
+}
+
+
+
+.header
+{
+  margin-bottom: 10px;
+  overflow:hidden;
+  background-color: grey;
+  width:100%;
+  height:100px;
+}
+/**/
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width:20%;
+}
+
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  width:25%;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #c0c0c0;
+  text-shadow: 5px 5px 3px black;
+  box-shadow:5px 5px 3px black;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  width:100%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.stories,.poems,.quotes{  position: relative;
+  padding-top:6%;
+  padding-bottom:6%;
+  margin-left: 300px;
+  margin-top: 100px;
+  overflow:auto;
+  background-color:grey;
+  max-width: 660px;
+  width:700px;
+  height:100px;
+    line-height: 1.45;
+    transition:transform 2s;
+    color:black;
+
+}
+.stories:hover {
+    border:2px solid red;
+       transform: scale(1.2,1.2);
+}
+.quotes:hover{
+  border: 2px solid red;
+    transform: scale(1.2,1.2);
+
+}
+.poems:hover{
+  border: 2px solid red;
+     transform: scale(1.2,1.2);
+}

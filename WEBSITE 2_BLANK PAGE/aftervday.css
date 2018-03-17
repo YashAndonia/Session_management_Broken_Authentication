@@ -1,0 +1,156 @@
+html{
+  position: relative;
+  min-height: 100%;
+
+}
+
+body{
+  background-image: url('page.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+html,body{
+  margin:0;
+  padding: 0;
+  color: #1930C5;
+
+
+}
+#pagewrapper{
+  margin-bottom: 50px;
+}
+.footer{
+  position: absolute;
+  right:0;
+  bottom:0;
+  left: 0;
+  height:10px;
+  width: 100%;
+
+}
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  color:           black;
+  }
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  color:            white; }
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  none;
+  font-weight:      bold;
+  }
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: black;
+  color: white;
+  }
+
+  .header,
+  .footer
+  {
+    text-align: center;
+    padding: 5px;
+    background-color:grey;
+
+  }
+
+
+
+  .header
+  {
+    margin-bottom: 10px;
+    overflow:hidden;
+    background-color: grey;
+    width:100%;
+    height:100px;
+  }
+.banner
+{
+  min-height: 600px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  color:white;
+
+
+
+}
+.banner_content1{
+  position: relative;
+  padding-top:6%;
+  padding-bottom:6%;
+  margin-left: 300px;
+  margin-top: 100px;
+  overflow:hidden;
+  background-color:#c0c0c0;
+  max-width: 660px;
+    line-height: 1.45;
+	background-image: url('55.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+	opacity:0.7;
+}
+.banner_content1:hover{
+	opacity:0.8;
+}
+.banner_content2{
+color: white;
+  position: relative;
+  padding-top:6%;
+  padding-bottom:6%;
+  margin-left: 300px;
+  margin-top: 50px;
+  overflow:hidden;
+  max-width: 660px;
+    line-height: 1.45;
+	background: linear-gradient(to right, rgba(0,0,0,1), rgba(56,56,56,0.5));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    opacity:0.7;
+}
+.banner_content2:hover{
+	opacity:0.8;
+}
+
+.banner_content3{
+color: white;
+  position: relative;
+  padding-top:6%;
+  padding-bottom:6%;
+  margin-left: 300px;
+  margin-top: 50px;
+  overflow:hidden;
+  max-width: 660px;
+    line-height: 1.45;
+	background: linear-gradient(to right, rgba(56,56,56,0.5),rgba(0,0,0,1));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    opacity:0.7;
+}
+.banner_content3:hover{
+	opacity:0.8;
+}
+
+ul{
+  list-style-type: none;
+  float: center;
+  margin-left: 60px;
+
+}
+ ul li{
+   float :left;
+   width:75px;
+   margin-right: 50px;
+   margin-left: 150px;
+ }
