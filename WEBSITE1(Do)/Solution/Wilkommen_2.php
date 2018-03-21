@@ -1,15 +1,21 @@
 <?php
+
 session_start();
- if(!isset($_SESSION["nam"])){
-	 header('location:byebye.php');
+
+
+ if(!isset($_SESSION["nam"])){//session name is not set so logout
+	 session_regenerate_id();
+$_SESSION["nam"]="DNE";
+header('location:byebye.php');
  }
+ if(isset($_POST["fname"])){//the form members are set and are yet to be filled into the session variables, so stay loggedin
 $a=$_POST["fname"];
 $b=$_POST["lname"];
-
 $_SESSION["nam"]=$a." ".$b;
-
-
-?>
+ }
+ 
+ 
+ ?>
 
 <!DOCTYPE HTML>
 
