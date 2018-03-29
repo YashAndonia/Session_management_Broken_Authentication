@@ -16,6 +16,7 @@ $_SESSION["nam"]=$a." ".$b;
  session_start();
  if(isset($_POST["fname"]))
  {
+	 
    $a=$_POST["fname"];
    $b =$_POST["lname"];
    session_regenerate_id();
@@ -25,23 +26,47 @@ $_SESSION["nam"]=$a." ".$b;
  }
  else {
 
-   if(!isset($_SESSION["nam"]))
+   if(!isset($_SESSION["nam"])||$_SESSION["nam"]=="DNE")
    {
      header('location:byebye.php');
    }
+ 
+ 
  }
+ 
+ 
 
 
  ?>
 
 <!DOCTYPE HTML>
+<head><meta http-equiv="refresh" content="12">
 
-<head>
-	<title>Let's Do</title>
+	<title>Lets Do</title>
 	<link href="dostyle_mainpg.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+function connection()
+{
+
+var status =<?php if(isset($_SESSION['nam'])){echo 1;}else{ echo 0;}?>;
+console.log(status);
+if(status)
+ {
+
+   //setTimeout(connection,10000);
+ }
+ else
+ {
+  window.location.replace("http://localhost/byebye.php");
+ }
+}
+document.addEventListener("DOMContentLoaded", function() {
+  connection();
+});
+</script>
 
 
 </head>

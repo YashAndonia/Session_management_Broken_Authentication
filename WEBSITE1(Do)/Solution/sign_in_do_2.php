@@ -88,11 +88,14 @@ return false;
 }
 
 
+if(!(/[a-z A-z]*\d[a-z A-z]*/.test(document.forms['yes']['pwrd'].value))|!/^.{4,15}$/.test(document.forms['yes']['pwrd'].value)){
+alert("Your password needs to have at least one number in it! And it should be between 4 and 15 letters  ");
+return false;}
+
 }
 
 
-
-
+window.history.forward(); 
 
 </script>
 

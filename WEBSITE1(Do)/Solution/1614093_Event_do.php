@@ -9,25 +9,36 @@ header('location:byebye.php');
 ?>
 
 <!DOCTYPE HTML>
-<head>
-<link rel="stylesheet" href="dostyle_mainpg.css" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	
-	
-	
-	<style>
-	#data{
-	position:absolute;
-	left:5%;
-	width:70%;
-	}
-	
-	p{
-	font-size:2em;
-	font-family:'Montserrat';
-	}
-	
-	</style>
+
+<head><meta http-equiv="refresh" content="12">
+
+	<title>Lets Do</title>
+	<link href="dostyle_mainpg.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+function connection()
+{
+
+var status =<?php if(isset($_SESSION['nam'])){echo 1;}else{ echo 0;}?>;
+console.log(status);
+if(status)
+ {
+
+   //setTimeout(connection,10000);
+ }
+ else
+ {
+  window.location.replace("http://localhost/byebye.php");
+ }
+}
+document.addEventListener("DOMContentLoaded", function() {
+  connection();
+});
+</script>
+
+
 </head>
 
 <body>
